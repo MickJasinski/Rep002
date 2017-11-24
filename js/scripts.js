@@ -15,9 +15,8 @@ alert('Hi, ' + name);
 console.log('Hi, ' + name); */
 
 
-var a = 2,
-    h = 3,
+var a = prompt("Type the triangle's side length" + name),
+    h = prompt("Type the triangle's side height" + name),
     triangleArea = a * h / 2;
-
-var a = prompt(triangleArea);
+alert('Triangle area is:' + triangleArea);
 console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
